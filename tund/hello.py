@@ -35,3 +35,23 @@ print(f"liitmine: {a} + {b} = {a+b}")
 print(f"lahutamine: {a} - {b} = {a-b}")
 print(f"jagamise täisarvuline osa: {a} // {b} = {a//b}")
 
+from time import *
+from os import *
+print ("valgusfoor kaivitatud")
+print("")#tuhi rida
+system("cls") #ekraani puhastamine
+print("punane - oota")
+sleep(5)
+system("cls") #ekraani puhastamine   
+print("kollane - valmistu sõitma")
+sleep(2)
+system("cls") #ekraani puhastamine
+print("roheline - sõida")
+sleep(5)
+system("cls") #ekraani puhastamine
+print("kollane - valmistu peatuma")
+sleep(2)
+system("cls") #ekraani puhastamine
+print("punane - oota")
+
+
